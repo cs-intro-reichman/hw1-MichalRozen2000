@@ -15,11 +15,11 @@ public class TimeFormat {
 
 		if (hours > 12){
 			String formattedMinutes = String.format("%02d", minutes);
-			System.out.println((hours-12) + ":" + formattedMinutes + TimeMarker);
+			System.out.println((hours-12) + ":" + formattedMinutes + " " +TimeMarker);
 		}
 		else {
 			String formattedMinutes = String.format("%02d", minutes);
-			System.out.println(hours + ":" + formattedMinutes + TimeMarker);
+			System.out.println(hours + ":" + formattedMinutes + " " + TimeMarker);
 		}
 		}
 
