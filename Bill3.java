@@ -9,7 +9,7 @@ public class Bill3 {
         double newMoney = Math.ceil(money);
 
 
-        System.out.println("Dear " + one + ", " + two + ", and " + three + ": pay " + newMoney + " Shekels each." );
+        System.out.println("Dear " + three + ", " + two + ", and " + one + ": pay " + newMoney + " Shekels each." );
 
 
     }
